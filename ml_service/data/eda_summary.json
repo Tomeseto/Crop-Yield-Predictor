@@ -1,0 +1,234 @@
+{
+  "total_records": 4500,
+  "numerical_statistics": {
+    "area_hectares": {
+      "min": 0.21,
+      "max": 9.38,
+      "mean": 1.81,
+      "std": 1.16,
+      "p25": 0.95,
+      "median": 1.55,
+      "p75": 2.41,
+      "p99": 5.69
+    },
+    "nitrogen_kgha": {
+      "min": 0.0,
+      "max": 186.3,
+      "mean": 66.33,
+      "std": 37.94,
+      "p25": 36.3,
+      "median": 66.2,
+      "p75": 96.2,
+      "p99": 144.1
+    },
+    "phosphorus_kgha": {
+      "min": 0.0,
+      "max": 89.8,
+      "mean": 41.13,
+      "std": 16.9,
+      "p25": 29.7,
+      "median": 41.8,
+      "p75": 52.8,
+      "p99": 78.1
+    },
+    "potassium_kgha": {
+      "min": 0.0,
+      "max": 95.6,
+      "mean": 37.12,
+      "std": 18.34,
+      "p25": 23.8,
+      "median": 37.6,
+      "p75": 50.1,
+      "p99": 77.5
+    },
+    "soil_ph": {
+      "min": 4.29,
+      "max": 8.07,
+      "mean": 6.29,
+      "std": 0.66,
+      "p25": 5.82,
+      "median": 6.38,
+      "p75": 6.76,
+      "p99": 7.56
+    },
+    "organic_carbon_pct": {
+      "min": 0.15,
+      "max": 1.09,
+      "mean": 0.55,
+      "std": 0.15,
+      "p25": 0.45,
+      "median": 0.55,
+      "p75": 0.65,
+      "p99": 0.89
+    },
+    "rainfall_mm": {
+      "min": 20.0,
+      "max": 2249.2,
+      "mean": 897.22,
+      "std": 606.47,
+      "p25": 187.1,
+      "median": 1122.75,
+      "p75": 1408.25,
+      "p99": 1875.92
+    },
+    "temperature_celsius": {
+      "min": 18.0,
+      "max": 34.6,
+      "mean": 26.12,
+      "std": 2.68,
+      "p25": 24.1,
+      "median": 26.2,
+      "p75": 28.2,
+      "p99": 31.8
+    },
+    "yield_qha": {
+      "min": 2.5,
+      "max": 40.52,
+      "mean": 11.74,
+      "std": 8.33,
+      "p25": 4.42,
+      "median": 9.54,
+      "p75": 18.15,
+      "p99": 31.92
+    }
+  },
+  "categorical_distributions": {
+    "district": {
+      "Sambalpur": 489,
+      "Ganjam": 481,
+      "Balasore": 453,
+      "Cuttack": 449,
+      "Koraput": 448,
+      "Puri": 446,
+      "Kalahandi": 443,
+      "Bargarh": 440,
+      "Sundargarh": 436,
+      "Mayurbhanj": 415
+    },
+    "soil_type": {
+      "Red Laterite": 1350,
+      "Alluvial": 1129,
+      "Sandy Loam": 1122,
+      "Black Soil": 675,
+      "Coastal Saline": 224
+    },
+    "season": {
+      "Kharif": 2821,
+      "Rabi": 1679
+    },
+    "crop": {
+      "Ragi (Mandia)": 831,
+      "Paddy (Kharif)": 807,
+      "Maize": 606,
+      "Paddy (Rabi)": 597,
+      "Groundnut": 577,
+      "Green Gram (Moong)": 563,
+      "Mustard": 519
+    },
+    "irrigation_type": {
+      "Rainfed": 2186,
+      "Borewell": 1656,
+      "Canal": 658
+    }
+  },
+  "crop_yield_statistics": {
+    "Green Gram (Moong)": {
+      "count": 563,
+      "min": 2.5,
+      "mean": 3.85,
+      "median": 3.08,
+      "max": 9.44,
+      "std": 1.57
+    },
+    "Groundnut": {
+      "count": 577,
+      "min": 2.5,
+      "mean": 7.75,
+      "median": 8.14,
+      "max": 18.55,
+      "std": 3.78
+    },
+    "Maize": {
+      "count": 606,
+      "min": 2.5,
+      "mean": 15.04,
+      "median": 15.28,
+      "max": 28.96,
+      "std": 5.22
+    },
+    "Mustard": {
+      "count": 519,
+      "min": 2.5,
+      "mean": 4.66,
+      "median": 4.38,
+      "max": 10.42,
+      "std": 1.93
+    },
+    "Paddy (Kharif)": {
+      "count": 807,
+      "min": 2.5,
+      "mean": 19.27,
+      "median": 19.41,
+      "max": 34.94,
+      "std": 5.96
+    },
+    "Paddy (Rabi)": {
+      "count": 597,
+      "min": 2.5,
+      "mean": 23.24,
+      "median": 23.47,
+      "max": 40.52,
+      "std": 5.85
+    },
+    "Ragi (Mandia)": {
+      "count": 831,
+      "min": 2.5,
+      "mean": 6.33,
+      "median": 5.95,
+      "max": 17.54,
+      "std": 3.31
+    }
+  },
+  "empirical_validation_bounds": {
+    "area_hectares": {
+      "min": 0.05,
+      "max": 50.0,
+      "unit": "ha"
+    },
+    "nitrogen_kgha": {
+      "min": 0.0,
+      "max": 350.0,
+      "unit": "kg/ha"
+    },
+    "phosphorus_kgha": {
+      "min": 0.0,
+      "max": 200.0,
+      "unit": "kg/ha"
+    },
+    "potassium_kgha": {
+      "min": 0.0,
+      "max": 200.0,
+      "unit": "kg/ha"
+    },
+    "soil_ph": {
+      "min": 3.79,
+      "max": 8.57,
+      "unit": "pH"
+    },
+    "organic_carbon_pct": {
+      "min": 0.05,
+      "max": 3.0,
+      "unit": "%"
+    },
+    "rainfall_mm": {
+      "min": 0.0,
+      "max": 2749.2,
+      "unit": "mm"
+    },
+    "temperature_celsius": {
+      "min": 10.0,
+      "max": 50.0,
+      "unit": "\u00b0C"
+    }
+  }
+}
